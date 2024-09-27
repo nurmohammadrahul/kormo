@@ -13,6 +13,7 @@ import Slide from './Slide'
 import bgimg1 from '../assets/images/carousel1.jpg'
 import bgimg2 from '../assets/images/carousel2.jpg'
 import bgimg3 from '../assets/images/carousel3.jpg'
+import bgimg4 from '../assets/images/carousel4.jpg'
 
 export default function Carousel() {
   return (
@@ -32,6 +33,12 @@ export default function Carousel() {
         modules={[Autoplay, Pagination, Navigation]}
         className='mySwiper'
       >
+         <SwiperSlide>
+          <Slide
+            image={bgimg4}
+            text='Get Your Data Entry Done.'
+          />
+        </SwiperSlide>
         <SwiperSlide>
           <Slide
             image={bgimg1}

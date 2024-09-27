@@ -22,7 +22,7 @@ const JobCard = ({ job }) => {
         <span className='text-xs font-light text-gray-800 '>
           Deadline: {new Date(deadline).toLocaleDateString()}
         </span>
-        <span className='px-3 py-1 text-[8px] text-blue-800 uppercase bg-blue-200 rounded-full '>
+        <span className='px-3 py-1 text-[8px] text-white uppercase bg-green-300 rounded-full '>
           {category}
         </span>
       </div>
