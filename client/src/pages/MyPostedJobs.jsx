@@ -114,7 +114,7 @@ const MyPostedJobs = () => {
                               'text-blue-500 bg-blue-100/60'
                             } ${
                               job.category === 'Graphics Design' &&
-                              'text-emerald-500 bg-emerald-100/60'
+                              'text-orange-500 bg-orange-100/60'
                             } ${
                                 job.category === 'Data Entry' &&
                                 'text-green-500 bg-green-100/60'
