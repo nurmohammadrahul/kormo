@@ -2,7 +2,7 @@ import toast from 'react-hot-toast'
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 import useAxiosSecure from '../hooks/useAxiosSecure'
 import useAuth from '../hooks/useAuth'
-const BidRequests = () => {
+const BidRequest = () => {
   const { user } = useAuth()
   const axiosSecure = useAxiosSecure()
   const queryClient = useQueryClient()
@@ -144,6 +144,10 @@ const BidRequests = () => {
                             } ${
                               bid.category === 'Graphics Design' &&
                               'text-emerald-500 bg-emerald-100/60'
+                            }
+                            ${
+                              bid.category === 'Data Entry' &&
+                              'text-orange-500 bg-orange-100/60'
                             } ${
                               bid.category === 'Digital Marketing' &&
                               'text-pink-500 bg-pink-100/60'
@@ -243,4 +247,4 @@ const BidRequests = () => {
   )
 }
 
-export default BidRequests
+export default BidRequest
