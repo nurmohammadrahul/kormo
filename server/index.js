@@ -11,7 +11,7 @@ const corsOptions = {
   origin: [
     'http://localhost:5173',
     'http://localhost:5174',
-    'https://solosphere.web.app',
+    'https://kormo1.netlify.app/',
   ],
   credentials: true,
   optionSuccessStatus: 200,
